@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/wheel.ico" />
+    <script src="/scripts/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<div id="main" class="main">
+    <div id="wheel" class="wheel" onload="makeWheel()">
+           <div>
+               <!-- 
+                    list=["octopus","starmix","smarties","watermelon gummy","skittles","hersheys(cac, almond, dark, milk)","korean chips","korean balls","tic tacs","lifesavers","korean gummies","starch gummies","tamborines","bunnies","mints","sugar hearts","rock chocolate","sprinkles","skwinkles","creamy eggs","bag from sears"]
+                    for x in range(len(list)):
+                    print("<span class=\"span"+str(x+1)+"\"><p>"+list[x]+"</p></span>")
+                -->
+                <span class="span1" onclick="remove(this)"><p>octopus</p></span>
+                <span class="span2" onclick="remove(this)"><p>starmix</p></span>
+                <span class="span3" onclick="remove(this)"><p>smarties</p></span>
+                <span class="span4" onclick="remove(this)"><p>watermelon gummy</p></span>
+                <span class="span5" onclick="remove(this)"><p>skittles</p></span>
+                <span class="span6" onclick="remove(this)"><p>hersheys</p></span>
+                <span class="span7" onclick="remove(this)"><p>korean chips</p></span>
+                <span class="span8" onclick="remove(this)"><p>korean balls</p></span>
+                <span class="span9" onclick="remove(this)"><p>tic tacs</p></span>
+                <span class="span10" onclick="remove(this)"><p>lifesavers</p></span>
+                <span class="span11" onclick="remove(this)"><p>korean gummies</p></span>
+                <span class="span12" onclick="remove(this)"><p>starch gummies</p></span>
+                <span class="span13" onclick="remove(this)"><p>tamborines</p></span>
+                <span class="span14" onclick="remove(this)"><p>bunnies</p></span>
+                <span class="span15" onclick="remove(this)"><p>mints</p></span>
+                <span class="span16" onclick="remove(this)"><p>sugar hearts</p></span>
+                <span class="span17" onclick="remove(this)"><p>rock chocolate</p></span>
+                <span class="span18" onclick="remove(this)"><p>sprinkles</p></span>
+                <span class="span19" onclick="remove(this)"><p>skwinkles</p></span>
+                <span class="span20" onclick="remove(this)"><p>creamy eggs</p></span>
+                <span class="span21" onclick="remove(this)"><p>bag from sears</p></span>
+          </div>
+     </div>
+
+     <button class="spin" onclick="letsSpin()">SPIN</button>
+</div>
+<div id="selector"></div> 
+</html>
